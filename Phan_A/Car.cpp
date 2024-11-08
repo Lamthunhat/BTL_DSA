@@ -34,7 +34,7 @@ public:
 		is >> car.id;
 		cout << "Nhap ten o to: ";
 		is.ignore();
-		getline(is, car.name);
+		is >> car.name;
 		cout << "Nhap nam san xuat: ";
 		is >> car.year;
 		cout << "Nhap gia: ";
