@@ -42,15 +42,7 @@ public:
 			cout << "\nDanh sach o to hien dang trong.\n";
 		}
 		else
-		{
-			//Can fix lai
-//			cout << left
-//				 << setw(15) << "Ma xe"
-//				 << setw(15) << "Ten xe"
-//				 << setw(15) << "Nam san xuat"
-//				 << setw(15) << "Gia"
-//				 << "\n";
-				 
+		{			 
 			for(auto &car : cars)
 			{
 				cout << car << "\n";
